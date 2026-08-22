@@ -11,8 +11,6 @@
 
 <sup>1</sup>Concordia University &nbsp; <sup>2</sup>Mila – Quebec AI Institute &nbsp; <sup>3</sup>University of Toronto
 
-<sup>*</sup>Corresponding authors
-
 [Project Page](https://linlianjiang.github.io/noob/) · [arXiv](https://arxiv.org/abs/2606.30937) · [PDF](https://arxiv.org/pdf/2606.30937)
 
 ### TODO List
