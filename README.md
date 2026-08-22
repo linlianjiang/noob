@@ -1,8 +1,22 @@
 # No Adaptation Without Observation
+## Observability-Constrained Test-Time Prompt Tuning for LiDAR Semantic Segmentation (IROS 2026)
 
-Official code for **"No Adaptation Without Observation: Observability-Constrained
-Test-Time Prompt Tuning for LiDAR Semantic Segmentation"**
-([arXiv:2606.30937](https://arxiv.org/abs/2606.30937)).
+[Linlian Jiang](https://linlianjiang.github.io/)<sup>1,2</sup>,
+[Wentao Ju](https://openreview.net/profile?id=~Wentao_Ju1)<sup>1</sup>,
+[Sadman Rakib Pinon](https://srpinon.com/)<sup>1,2</sup>,
+[Jianwei Xian](https://openreview.net/profile?id=~Jianwei_Xian1)<sup>1</sup>,
+[Zhixiang Chi](https://scholar.google.ca/citations?hl=en&user=0s-HzGIAAAAJ&view_op=list_works&sortby=pubdate)<sup>3</sup>,
+[Xinxin Zuo](https://sites.google.com/site/xinxinzuohome/home)<sup>1*</sup>,
+[Yang Wang](https://users.encs.concordia.ca/~wayang/)<sup>1,2*</sup>
+
+<sup>1</sup>Concordia University &nbsp; <sup>2</sup>Mila – Quebec AI Institute &nbsp; <sup>3</sup>University of Toronto
+
+<sup>*</sup>Corresponding authors
+
+[Project Page](https://linlianjiang.github.io/noob/) · [arXiv](https://arxiv.org/abs/2606.30937) · [PDF](https://arxiv.org/pdf/2606.30937)
+
+### TODO List
+- [x] Public code release
 
 ## Installation
 
