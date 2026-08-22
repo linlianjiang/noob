@@ -14,7 +14,7 @@
 [Project Page](https://linlianjiang.github.io/noob/) · [arXiv](https://arxiv.org/abs/2606.30937) · [PDF](https://arxiv.org/pdf/2606.30937)
 
 ### TODO List
-- [x] Public code release
+- [x] Public code release (August 2026)
 
 ## Installation
 
