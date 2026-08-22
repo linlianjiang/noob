@@ -113,6 +113,89 @@ body {
 }
 
 
+/* Epigraph — pull quote above the teaser figure */
+.epigraph {
+  position: relative;
+  max-width: 46rem;
+  margin: 0 auto 2.75rem;
+  padding: 2.5rem 1.25rem 0;
+  text-align: center;
+}
+
+/* Oversized decorative opening quote, sitting behind the text */
+.epigraph::before {
+  content: "\201C";
+  position: absolute;
+  top: 0.35rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'EB Garamond', Georgia, 'Times New Roman', serif;
+  font-size: 6rem;
+  line-height: 1;
+  color: var(--primary-color);
+  opacity: 0.14;
+  pointer-events: none;
+  user-select: none;
+}
+
+.epigraph-text {
+  font-family: 'EB Garamond', Georgia, 'Times New Roman', serif;
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.45;
+  letter-spacing: 0.005em;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.epigraph-attribution {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.85rem;
+  margin-top: 1.15rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+
+/* Short rule standing in for the em dash */
+.epigraph-attribution::before {
+  content: "";
+  width: 3rem;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--secondary-color));
+}
+
+@media screen and (max-width: 768px) {
+  .epigraph {
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .epigraph::before {
+    font-size: 4.25rem;
+  }
+
+  .epigraph-text {
+    font-size: 1.4rem;
+  }
+
+  .epigraph-attribution {
+    gap: 0.6rem;
+    font-size: 0.85rem;
+  }
+
+  .epigraph-attribution::before {
+    width: 2rem;
+  }
+}
+
+
 /* Publication Content Styling */
 .publication-title {
     font-family: 'Inter', sans-serif !important;
